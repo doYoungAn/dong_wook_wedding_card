@@ -19,6 +19,7 @@ import Invitation from './components2/invitation';
 import Counter from './components2/counter';
 import Information from './components2/information';
 import Calendar from './components2/calendar';
+import Gallery from './components2/gallery';
 import Location from './components2/Location'
 
 import './App.css';
@@ -77,6 +78,7 @@ const App: FC = () => {
       </Section>
       <Section>
         <Title title="OUT MOMENTS" />
+        <Gallery />
       </Section>
       <Section>
         <Title title="오시는길" />
