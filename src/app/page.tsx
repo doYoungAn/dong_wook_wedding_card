@@ -1,5 +1,7 @@
 import { FC } from 'react';
 import type { Metadata } from 'next';
+import Section from '@/components/layout/section';
+import SectionTitle from '@/components/layout/sectionTitle';
 import TopBanner from '@/components/topBanner';
 import Invitation from '@/components/invitation';
 import Counter from '@/components/counter';
@@ -21,12 +23,30 @@ const HomePage: FC = () => {
     <>
       <main>
         <TopBanner />
-        <Invitation />
-        <Counter />
-        <Information />
-        <Gallery />
-        <Location />
-        <Give />
+        <Section>
+          <SectionTitle title='INVITATION' />
+          <Invitation />
+        </Section>
+        <Section>
+          <SectionTitle title='D-Day' />
+          <Counter />
+        </Section>
+        <Section>
+          <SectionTitle title='예식 안내' />
+          <Information />
+        </Section>
+        <Section>
+          <SectionTitle title='OUR MOMENTS' />
+          <Gallery />
+        </Section>
+        <Section>
+          <SectionTitle title='오시는길' />
+          <Location />
+        </Section>
+        <Section>
+          <SectionTitle title='마음 전하실 곳' />
+          <Give />
+        </Section>
       </main>
       <Footer />
       <ToastContainer />
