@@ -1,5 +1,3 @@
-'use client'
-
 import { FC } from 'react';
 import { toast } from 'react-toastify';
 import BaseButton from '../baseButton';
@@ -21,7 +19,7 @@ const AccountInfo: FC<AccountInfoProps> = ({ isBorderTop, account }) => {
 
   return (
     <div
-      className={`w-5/6 py-3 px-2 flex justify-between ${isBorderTop ? 'border-t-[1px]' : ''}`}
+      className={`w-5/6 py-3 px-2 flex justify-between bg-whiteBg ${isBorderTop ? 'border-t-[1px] border-mainBorder' : ''}`}
     >
       <div>
         <div className="text-sm">
