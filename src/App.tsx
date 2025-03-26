@@ -45,7 +45,7 @@ const App: FC = () => {
       </Section>
       <Section>
         <Title title="LOCATION" subTitle="오시는길" />
-        <Location />
+        {/* <Location /> */}
       </Section>
       <Section>
         <Title title="INFORMATION" subTitle="예식정보 및 안내사항" />
