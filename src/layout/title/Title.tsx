@@ -2,15 +2,12 @@ import { FC } from 'react';
 
 interface TitleProps {
   title?: string;
-  subTitle?: string;
 }
 
-const Title: FC<TitleProps> = ({ title = '', subTitle = '' }) => {
+const Title: FC<TitleProps> = ({ title = '' }) => {
   return (
-    <div className="flex flex-col gap-1 items-center mb-12">
-      <h2 className="text-s text-subTitle">{title}</h2>
-      <h3 className="text-xl text-title font-IropkeBatangM">{subTitle}</h3>
-    </div>
+      <h2 className='w-full text-center text-primary2 font-GowunBatang font-bold mb-[30px]'>{title}</h2>
+    
   );
 };
 
