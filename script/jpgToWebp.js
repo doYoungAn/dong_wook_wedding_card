@@ -7,16 +7,16 @@ const path = require('path');
 
 const targetNaUUsDir = path.join(
   __dirname,
-  './../src/assets/optimization/na_u_us'
+  './convert_images'
 );
-const folderNaUUsPath = path.join(__dirname, './../src/assets/na_u_us');
-const naUUsfileNames = fs.readdirSync(folderNaUUsPath);
+const folderNaUUsPath = path.join(__dirname, './images');
+// const naUUsfileNames = fs.readdirSync(folderNaUUsPath);
 
-const targetWsDir = path.join(__dirname, './../src/assets/optimization/ws');
-const folderWsPath = path.join(__dirname, './../src/assets/ws');
-const wSfileNames = fs.readdirSync(folderWsPath);
+// const targetWsDir = path.join(__dirname, './../src/assets/optimization/ws');
+// const folderWsPath = path.join(__dirname, './../src/assets/ws');
+const fileNames = fs.readdirSync(folderNaUUsPath);
 
-const naUUsfiles = naUUsfileNames.map((fileName) => {
+const naUUsfiles = fileNames.map((fileName) => {
   return {
     fileName,
     buffer: fs.readFileSync(`${folderNaUUsPath}/${fileName}`),
@@ -29,15 +29,15 @@ naUUsfiles.forEach((file) => {
     .toFile(`${targetNaUUsDir}/${file.fileName.split('.')[0]}.webp`);
 });
 
-const wSfiles = wSfileNames.map((fileName) => {
-  return {
-    fileName,
-    buffer: fs.readFileSync(`${folderWsPath}/${fileName}`),
-  };
-});
+// const wSfiles = wSfileNames.map((fileName) => {
+//   return {
+//     fileName,
+//     buffer: fs.readFileSync(`${folderWsPath}/${fileName}`),
+//   };
+// });
 
-wSfiles.forEach((file) => {
-  sharp(file.buffer)
-    .webp({ quality: 90 })
-    .toFile(`${targetWsDir}/${file.fileName.split('.')[0]}.webp`);
-});
+// wSfiles.forEach((file) => {
+//   sharp(file.buffer)
+//     .webp({ quality: 90 })
+//     .toFile(`${targetWsDir}/${file.fileName.split('.')[0]}.webp`);
+// });
