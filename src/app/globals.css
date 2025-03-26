@@ -1,6 +1,15 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
 @import "tailwindcss";
 
-:root {
+@theme {
+  --color-primary: #0C6A31;
+  --color-custom-gray: #f6f6f6;
+}
+
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -23,4 +32,4 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
