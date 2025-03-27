@@ -67,3 +67,10 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 신부측
 정보경 하나은행 457-910348-41707
 정근길(동남) 국민은행 214901-04-303475
+
+베뉴지 네이처홀 1층
+차상식, 이병순
+정근길, 김해영
+오전 11:20
+cha dong wook
+jeong bo gyeong

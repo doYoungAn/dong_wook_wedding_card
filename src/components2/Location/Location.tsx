@@ -39,6 +39,9 @@ const Location: FC = () => {
         <div className="text-[#797979] text-sm">
           서울 특별시 강서구 강서로 388 (등촌동)
         </div>
+        <div className="text-[#797979] text-sm">
+          1F 네이처홀
+        </div>
       </div>
       <div id="map" style={{ width: '100%', height: 265 }}></div>
       <div className="flex flex-row bg-darkBg text-contentPrimary mb-6">

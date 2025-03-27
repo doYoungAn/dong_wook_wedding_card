@@ -6,10 +6,10 @@ const Information: FC = () => {
   return (
     <>
       <div className="font-GowunBatang w-full text-center" style={{ color: '#4a4949' }}>
-        2025년 6월 7일 토요일 오전 11시 30분
+        2025년 6월 7일 토요일 오전 11시 20분
       </div>
       <div className="font-GowunBatang w-full text-center" style={{ color: '#4a4949' }}>
-        더 베뉴지
+        더 베뉴지 1F 네이처홀
       </div>
       <div className='transform:rotate(undefineddeg) w-[10px]' style={{
         margin: '17px auto 20px',

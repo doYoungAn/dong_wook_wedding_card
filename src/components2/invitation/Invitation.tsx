@@ -23,7 +23,7 @@ export const Invitation: FC = () => {
       <div className='flex items-center justify-center mb-[8px] font-GowunBatang text-secondaryText'>
         <div>차상식</div>
         <div className=' mx-[5px]'>·</div>
-        <div>차상식</div>
+        <div>이병순</div>
         <div className=' mx-[5px]'>의</div>
         <div className=' mr-[5px]'>아들</div>
         <div>차동욱</div>
@@ -32,7 +32,7 @@ export const Invitation: FC = () => {
       <div className='flex items-center justify-center mb-[8px] font-GowunBatang text-secondaryText'>
         <div>정근길</div>
         <div className=' mx-[5px]'>·</div>
-        <div>정근길</div>
+        <div>김해영</div>
         <div className=' mx-[5px]'>의</div>
         <div className=' mr-[5px]'>딸</div>
         <div>정보경</div>

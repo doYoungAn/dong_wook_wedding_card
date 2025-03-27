@@ -9,13 +9,15 @@ const Calendar: FC = () => {
     setDaysInWeeks(makeMonthInDays(WEDDING_DATE));
   }, []);
 
+  console.log('daysInWeeks', daysInWeeks)
+
   return (
     <>
       <div className="max-w-[250px] text-center font-GowunBatang text-base font-semibold text-contentPrimary" style={{ margin: '24px auto' }}>
         2025.06.07
       </div>
       <div className="max-w-[250px] text-center font-GowunBatang text-sm" style={{ margin: '0 auto 20px auto' }}>
-        토요일 오전 11시 30분
+        토요일 오전 11시 20분
       </div>
       <div className="max-w-[250px] font-GowunBatang text-contentPrimary" style={{ margin: '0 auto' }}>
         <table className="table-auto w-full text-center">
@@ -38,7 +40,7 @@ const Calendar: FC = () => {
                   return (
                     <td className="px-2 py-2 relative" key={subIndex}>
                       {!day.isToday ? (
-                        <span className={`${index === 0 ? 'text-red' : ''}`}>
+                        <span className={`${subIndex === 0 ? 'text-red' : ''}`}>
                           {day.day}
                         </span>
                       ) : (
