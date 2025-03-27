@@ -86,6 +86,25 @@ const Location: FC = () => {
         </div>
       </div>
 
+      <div className="px-[24px] pb-[15px] font-GowunBatang">
+        <p style={{ lineHeight: '190%', fontSize: '0.938em' }}>🚇 지하철 이용 시</p>
+        <p style={{ lineHeight: '150%' }}> - 5호선 발산역 3번 출구 방향 1분 이내</p>
+        <p style={{ lineHeight: '150%' }}> - 9호선 양천향교역 6번 출구 도보 10분 직진</p>
+      </div>
+
+      <div className="px-[24px] pb-[15px] font-GowunBatang">
+        <p style={{ lineHeight: '190%', fontSize: '0.938em' }}>🚌 버스 이용 시</p>
+        <p style={{ lineHeight: '150%' }}> - 발산역 정류장 하차</p>
+        <p style={{ lineHeight: '150%' }}> - 지선버스 : 6630, 6632, 6642, 6645, 6648, 6657, 6712</p>
+        <p style={{ lineHeight: '150%' }}> - 간선버스 : 601, 605, 652, 654, 661</p>
+        <p style={{ lineHeight: '150%' }}> - 일반버스 : 60, 60-3, 88, 1002</p>
+        <p style={{ lineHeight: '150%' }}> - 직행버스 : 3000, 8000</p>
+      </div>
+
+      <div className="px-[24px] pb-[15px] font-GowunBatang">
+        <p style={{ lineHeight: '190%', fontSize: '0.938em' }}>🚗 주차안내</p>
+      </div>
+
       {/* <div className="flex flex-row font-IropkeBatangM text-contentPrimary pb-6 border-b-[1px] border-b-mainBorder">
         <div className="flex-1 flex justify-center">
           <div className="w-[40px] h-[40px] rounded-full bg-darkBg flex items-center justify-center">

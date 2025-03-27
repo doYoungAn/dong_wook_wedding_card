@@ -69,8 +69,8 @@ const Counter: FC = () => {
       </div>
 
       <div className="font-GowunBatang text-contentPrimary">
-        동욱 ❤️ 보경의 결혼식이{' '}
-        <b className="text-red font-semibold">{remainDay + 1}일</b> 남았습니다.
+        동욱 <span style={{ color: 'rgb(255, 84, 84)' }}>♥</span> 보경의 결혼식이{' '}
+        <b className="font-semibold" style={{ color: 'rgb(255, 84, 84)' }}>{remainDay + 1}일</b> 남았습니다.
       </div>
     </div>
   );
