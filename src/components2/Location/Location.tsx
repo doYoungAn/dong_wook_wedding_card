@@ -45,7 +45,7 @@ const Location: FC = () => {
         <div
           className="flex flex-1 px-2 py-3 flex-row items-center"
           onClick={() => {
-            window.open('https://naver.me/xUw4utMx', '_blank');
+            window.open('https://naver.me/5r9k8Pa6', '_blank');
           }}
         >
           <img
@@ -58,7 +58,7 @@ const Location: FC = () => {
         <div
           className="flex flex-1 px-2 py-3 flex-row items-center"
           onClick={() => {
-            window.open('https://kko.to/tGkNxfOmG6', '_blank');
+            window.open('https://kko.kakao.com/xjmiqUVW4p', '_blank');
           }}
         >
           <img
@@ -71,7 +71,7 @@ const Location: FC = () => {
         <div
           className="flex flex-1 px-2 py-3 flex-row items-center"
           onClick={() => {
-            window.open('https://tmap.life/3ea5cbbf', '_blank');
+            window.open('https://tmap.life/da14baeb', '_blank');
           }}
         >
           <img
