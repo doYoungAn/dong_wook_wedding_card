@@ -15,6 +15,7 @@ import Footer from './layout/footer';
 // import Information from './components/information';
 import Main from './layout/main';
 // import Invitation from './components/invitation';
+import TopBanner from './components2/topBanner/TopBanner';
 import Invitation from './components2/invitation';
 import Counter from './components2/counter';
 import Information from './components2/information';
@@ -63,6 +64,7 @@ const App: FC = () => {
         <Give />
       </Section> */}
 
+      <TopBanner />
       <Section>
         <Title title="INVITATION" />
         <Invitation />

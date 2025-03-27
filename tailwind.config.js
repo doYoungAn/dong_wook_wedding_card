@@ -28,7 +28,8 @@ module.exports = {
       fontFamily: {
         pre: ['pretendard'],
         IropkeBatangM: ['Iropke Batang'],
-        GowunBatang: ['Gowun Batang']
+        GowunBatang: ['Gowun Batang'],
+        BodoniModa: ['Bodoni Moda']
       },
     },
   },
