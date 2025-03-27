@@ -103,6 +103,8 @@ const Location: FC = () => {
 
       <div className="px-[24px] pb-[15px] font-GowunBatang">
         <p style={{ lineHeight: '190%', fontSize: '0.938em' }}>🚗 주차안내</p>
+        <p style={{ lineHeight: '150%' }}> - 건물 내 B2-B5, 3F ~ 5F 2시간 무료주차</p>
+        <p style={{ lineHeight: '150%' }}> - 엘레베이터 옆 무인정산기 주차 등록</p>
       </div>
 
       {/* <div className="flex flex-row font-IropkeBatangM text-contentPrimary pb-6 border-b-[1px] border-b-mainBorder">
