@@ -28,7 +28,7 @@ const Gallery: FC = () => {
         {Gallery_IMAGES.slice(6, 14).map((image, index) => (
           <div
             className='min-w-[140px] max-w-[140px] h-[205px]'
-            onClick={() => onClickImage(7 + index)}
+            onClick={() => onClickImage(6 + index)}
           >
             <img src={image.src} alt="" className="w-full h-full object-cover" />
           </div>
