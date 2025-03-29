@@ -25,10 +25,10 @@ const Gallery: FC = () => {
         ))}
       </div>
       <div className='flex overflow-y-auto gap-[10px] flex-nowrap px-[10px]'>
-        {Gallery_IMAGES.slice(11, Gallery_IMAGES.length).map((image, index) => (
+        {Gallery_IMAGES.slice(10, Gallery_IMAGES.length).map((image, index) => (
           <div
             className='min-w-[140px] max-w-[140px] h-[205px]'
-            onClick={() => onClickImage(11 + index)}
+            onClick={() => onClickImage(10 + index)}
           >
             <img src={image.src} alt="" className="w-full h-full object-cover" />
           </div>
