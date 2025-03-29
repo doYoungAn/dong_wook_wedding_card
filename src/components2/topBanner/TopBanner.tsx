@@ -17,7 +17,7 @@ const TopBanner: FC = () => {
         <span>BOGYEONG</span>
       </div>
 
-      <div className='px-[16px] w-full mb-[48px] flex items-center justify-start'>
+      <div className='px-[16px] w-full mb-[48px] flex items-center justify-center'>
         <Left />
         <div className='mx-[1em] w-full max-w-full'>
           <div className='w-full relative overflow-hidden' style={{ paddingBottom: '100%' }}>
