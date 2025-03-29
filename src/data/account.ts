@@ -1,35 +1,25 @@
 export const GROOM_ACCOUNTS: Account[] = [
   {
-    owner: '안도영',
-    bankName: '카카오뱅크',
-    accountNumber: '3333-11-6288954',
+    owner: '차동욱',
+    bankName: '국민은행',
+    accountNumber: '318002-04-148089',
   },
   {
-    owner: '안찬희',
-    bankName: '중앙농협',
-    accountNumber: '312-0053-5911-11',
-  },
-  {
-    owner: '이순애',
-    bankName: '농협',
-    accountNumber: '141-02-426305',
+    owner: '차상식',
+    bankName: '기업은행',
+    accountNumber: '296-109627-01-010',
   },
 ];
 
 export const BRIDE_ACCOUNTS: Account[] = [
   {
-    owner: '홍선미',
-    bankName: '국민',
-    accountNumber: '346501-04-217956',
+    owner: '정보경',
+    bankName: '하나은행',
+    accountNumber: '457-910348-41707',
   },
   {
-    owner: '홍원국',
-    bankName: '국민',
-    accountNumber: '669102-01-437787',
-  },
-  {
-    owner: '한진숙',
-    bankName: '국민',
-    accountNumber: '669101-01-340879',
+    owner: '정근길(동남)',
+    bankName: '국민은행',
+    accountNumber: '214901-04-303475',
   },
 ];
