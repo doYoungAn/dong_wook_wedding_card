@@ -90,7 +90,7 @@ const App: FC = () => {
         <Title title="마음 전하실 곳" />
       </Section>
 
-      <Finish />
+      {/* <Finish /> */}
       <Footer />
 
       <ToastContainer position="top-center" autoClose={1000} />
