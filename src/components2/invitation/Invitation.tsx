@@ -1,12 +1,15 @@
 import { FC } from 'react';
 import InvitationImage from './../../assets/invitation.jpeg';
+import MiddleImage from './../../assets/images/middle.webp'
 
 export const Invitation: FC = () => {
 
   return (
     <>
       <div className="my-[30px]">
-        <img src={InvitationImage} />
+        <div className='w-full h-[300px] overflow-hidden'>
+          <img src={MiddleImage} alt='' className='object-cover w-ful' />
+        </div>
       </div>
       <div className="font-GowunBatang text-center" style={{ lineHeight: 2 }}>
         <p>
