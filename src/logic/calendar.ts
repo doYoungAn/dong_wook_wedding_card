@@ -26,24 +26,31 @@ export const makeMonthInDays = (targetDate: string) => {
     const date = firstDate.subtract(i + 1, 'day');
     dateList.push({
       day: date.get('D'),
+      date: date.format('YYYY-MM-DD'),
       isToday: false,
     });
   }
 
   for (let i = 0; i < daysInMonth; i++) {
     const date = firstDate.add(i, 'day');
-    dateList.push({
-      day: date.get('D'),
-      isToday: date.isSame(targetDate),
-    });
+    if (date.format('YYYY-MM') === dayjs(targetDate).format('YYYY-MM')) {
+      dateList.push({
+        day: date.get('D'),
+        date: date.format('YYYY-MM-DD'),
+        isToday: date.isSame(targetDate),
+      });
+    }
   }
 
   for (let i = 0; i < 6 - lastDateDay; i++) {
     const date = lastDate.add(i + 1, 'day');
-    dateList.push({
-      day: date.get('D'),
-      isToday: false,
-    });
+    if (date.format('YYYY-MM') === dayjs(targetDate).format('YYYY-MM')) {
+      dateList.push({
+        day: date.get('D'),
+        date: date.format('YYYY-MM-DD'),
+        isToday: false,
+      });
+    }
   }
 
   const dateByWeek: DayItem[][] = chunkArrayReduce(dateList, 7);

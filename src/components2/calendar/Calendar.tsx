@@ -13,12 +13,12 @@ const Calendar: FC = () => {
 
   return (
     <>
-      <div className="max-w-[250px] text-center font-GowunBatang text-base font-semibold text-contentPrimary" style={{ margin: '24px auto' }}>
-        2025.06.07
+      <div className="max-w-[250px] text-center font-GowunBatang text-xl font-semibold text-contentPrimary" style={{ margin: '24px auto' }}>
+        6월
       </div>
-      <div className="max-w-[250px] text-center font-GowunBatang text-sm" style={{ margin: '0 auto 20px auto' }}>
+      {/* <div className="max-w-[250px] text-center font-GowunBatang text-sm" style={{ margin: '0 auto 20px auto' }}>
         토요일 오전 11시 20분
-      </div>
+      </div> */}
       <div className="max-w-[250px] font-GowunBatang text-contentPrimary" style={{ margin: '0 auto' }}>
         <table className="table-auto w-full text-center">
           <thead>
